@@ -1,0 +1,27 @@
+Received: from mail.paypal-security-verification.com ([192.168.1.100])
+        by smtp.example.com with ESMTP id ABC123
+        for <user@example.com>; Mon, 4 Aug 2025 14:32:15 +0000
+Return-Path: <bounce@paypal-security-verification.com>
+Message-ID: <20250804143215.fake@paypal-security-verification.com>
+Date: Mon, 4 Aug 2025 14:32:15 +0000
+From: security-team@paypaI.com
+Reply-To: noreply@paypal-security-verification.com
+To: user@example.com
+Subject: URGENT: Your PayPal Account Will Be Suspended
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Mailer: PhishMailer 2.0
+X-Originating-IP: 185.220.101.50
+X-Spam-Score: 8.5
+Authentication-Results: example.com; 
+    spf=fail (sender IP is not authorized) smtp.mailfrom=paypaI.com;
+    dkim=none (message not signed);
+    dmarc=fail (p=reject sp=reject pct=100)
+
+ANALYSIS NOTES:
+- SPF FAIL: Sender IP not authorized for paypaI.com domain
+- DKIM NONE: No digital signature present
+- DMARC FAIL: Message fails policy check
+- High spam score (8.5/10)
+- Suspicious originating IP from known hosting provider
+- X-Mailer indicates potential phishing tool usage
