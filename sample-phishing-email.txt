@@ -1,0 +1,33 @@
+From: security-team@paypaI.com
+Reply-To: noreply@paypal-security-verification.com
+To: user@example.com
+Subject: URGENT: Your PayPal Account Will Be Suspended
+Date: Mon, 4 Aug 2025 14:32:15 +0000
+Message-ID: <20250804143215.fake@paypal-security-verification.com>
+
+Dear Customer,
+
+We have detected suspicious activity on your PayPal account. Multiple unauthorized login attempts have been recorded from different locations.
+
+Your account has been temporarily limited and will be PERMANENTLY SUSPENDED within 24 hours unless you verify your identity immediately.
+
+To avoid suspension and restore full access to your account, please click the link below and confirm your account details:
+
+[Verify Account Now] → http://paypal-security-verification.com/verify?id=user123&token=abc456def
+
+WARNING: Failure to act within 24 hours will result in:
+- Permanent account closure
+- Loss of all funds
+- Inability to create new PayPal accounts
+
+We apologize for any inconvenience this may cause.
+
+Best regards,
+PayPal Security Team
+Customer Protection Services
+
+© 2025 PayPal Holdings, Inc. All rights reserved.
+
+---
+This email was sent to user@example.com
+If you did not request this email, please ignore it.
